@@ -1,0 +1,118 @@
+@media(min-width:767px){
+    #header-head {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        z-index: 3;
+        position: relative;
+        border-bottom: 1px solid #00000040;
+    }
+    #heading {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        line-height: 40px;
+    }
+    .header-right {
+        display: flex;
+    }
+    #header-area {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-right: 20px;
+        line-height: 40px;
+    }
+    #header-time {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-right: 15px;
+        line-height: 40px;
+    }
+    #header-number {
+        background-color: #019e01bd;
+        margin-bottom: 1px;
+    }
+    .fa{
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        color: white;
+        display: inline-block;
+    }
+    .btn-tel {
+        position: relative;
+        display: block;
+        color: white;
+        text-align: center;
+        margin: auto;
+        max-width: 250px;
+        line-height: 40px;
+    }
+    #header-middle{
+        z-index: 3;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        border-bottom: 1px solid #00000040;
+    }
+    #header-middle-left {
+        margin-left: 80px;
+    }
+    #title a {
+        font-family: 'PT Serif', serif;
+        color: white;
+        font-size: 25px;
+        line-height: 80px;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        line-height: 80px;
+        margin-right: 80px;
+    }
+    #nav li {
+        margin-left: 30px;
+    }
+    #nav li a {
+        color: white;
+        display: block;
+    }
+    #slide{
+        z-index: 1;
+        position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	margin: 0;
+    }
+    .slide-word{
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        top: 200px;
+    }
+    #header-bottom-title {
+        font-family: 'PT Serif', serif;
+        color: white;
+        font-size: 40px;
+    }
+    .slide-word p {
+        color: white;
+    }
+    .slide-image img{
+        width: 100%;
+	    height: 500px;
+        object-fit: cover;
+    }
+    .slide-image{
+        z-index: 1;
+        position: relative;
+        top: -60px;
+        left: 0;
+    }
+    ul.slick-dots {
+        position: relative;
+        top: -140px;
+    }
+}
