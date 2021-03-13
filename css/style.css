@@ -343,12 +343,12 @@
     }
     #built-list-btn {
         text-align: center;
-        border: 2px solid black;
-        margin: 0 250px;
         padding: 20px;
     }
     #built-list-btn a {
         color: black;
+        border: 2px solid black;
+        padding: 15px
     }
     #recommend {
         float: right;
@@ -776,6 +776,30 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1000px){
     #main-header {
         position: relative;
@@ -877,11 +901,11 @@
     #main-image img {
         vertical-align: bottom;
         width: 100%;
-        height: 300px;
+        height: 500px;
         object-fit: cover;
     }
     .forth {
-        height: 300px;
+        height: 500px;
         background-image: url("../images/index-image4.jpg");
         display: flex;
         justify-content: center;
@@ -899,7 +923,7 @@
         color: white;
     }
     .seventh {
-        height: 300px;
+        height: 500px;
         background-image: url("../images/index-image7.jpg");
         display: flex;
         justify-content: center;
@@ -917,7 +941,7 @@
         color: white;
     }
     .eighth {
-        height: 300px;
+        height: 500px;
         background-image: url("../images/index-image8.jpg");
         display: flex;
         justify-content: center;
@@ -991,7 +1015,7 @@
     }
     .built-example-items img {
         width: 80%;
-        height: 200px;
+        height: 400px;
         object-fit: cover;
         margin-bottom: 20px;
     }
@@ -1025,8 +1049,8 @@
         margin-bottom: 40px;
         padding-bottom: 20px;
         position: relative;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     #recommend-title:before {
         content: "";
@@ -1038,8 +1062,8 @@
         border-bottom: 3px solid red;
     }
     #recommend-list {
-        width: 100%;
-        margin: 0 10px;
+        width: 90%;
+        margin: 0 10%;
     }
     #recommend-list li {
         display: flex;
@@ -1047,8 +1071,8 @@
         margin-bottom: 20px;
     }
     #recommend-list li img {
-        width: 40%;
-        height: 150px;
+        width: 50%;
+        height: 200px;
         object-fit: cover;
     }
     .recommend-number {
@@ -1076,8 +1100,8 @@
         margin-bottom: 40px;
         padding-bottom: 20px;
         position: relative;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     #new-title:before {
         content: "";
@@ -1097,7 +1121,7 @@
     }
     #new-list li img {
         width: 80%;
-        height: 200px;
+        height: 400px;
         object-fit: cover;
         margin-bottom: 20px;
     }
@@ -1174,28 +1198,28 @@
         font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
     }
     #form {
-        width: 100%;
+        width: 80%;
         margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .form-item-label {
         font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
     }
     .form-item-input {
-        width: 92%;
+        width: 100%;
         margin-bottom: 10px;
         padding: 5px;
         border: 1px dotted #00000059;
     }
     .form-item.textarea {
-        width: 92%;
+        width: 100%;
         height: 200px;
         padding: 5px;
         border: 1px dotted #00000059;
     }
     .form-btn {
-        width: 94%;
+        width: 100%;
         background-color: #0aa00aa1;
         border: none;
         padding: 8px 0;
