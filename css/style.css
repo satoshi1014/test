@@ -1,4 +1,42 @@
-@media(min-width:767px){
+
+@media screen and (min-width:1000px){
+    #page_top{
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      background: #3f98ef;
+      opacity: 0.6;
+    }
+    #page_top a{
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      text-decoration: none;
+    }
+    #page_top a::before{
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      content: '\f102';
+      font-size: 25px;
+      color: #fff;
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      text-align: center;
+    }
+    #main-header {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+    }
     #header-head {
         display: flex;
         justify-content: space-between;
@@ -11,6 +49,7 @@
         color: white;
         font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
         line-height: 40px;
+        margin-left: 20px;
     }
     .header-right {
         display: flex;
@@ -23,7 +62,7 @@
     }
     #header-time {
         color: white;
-        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        font-family: serif;
         margin-right: 15px;
         line-height: 40px;
     }
@@ -32,11 +71,11 @@
         margin-bottom: 1px;
     }
     .fa{
+        display: inline-block;
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
         color: white;
-        display: inline-block;
     }
     .btn-tel {
         position: relative;
@@ -46,6 +85,8 @@
         margin: auto;
         max-width: 250px;
         line-height: 40px;
+        padding-left: 5px;
+        font-family: serif;
     }
     #header-middle{
         z-index: 3;
@@ -115,4 +156,1411 @@
         position: relative;
         top: -140px;
     }
+    button.slick-next.slick-arrow {
+        position: relative;
+    }
+    #main{
+        padding-top: 495px
+    }
+    #main-image {
+        display: flex;
+    }
+    #main-image-left {
+        width: 100%;
+    }
+    .first {
+        width: 50%;
+        float: left;
+        height: 500px;
+        object-fit: cover;
+    }
+    .second {
+        width: 50%;
+        float: right;
+        height: 250px;
+        object-fit: cover;
+    }
+    .third {
+        width: 50%;
+        float: right;
+        height: 250px;
+        object-fit: cover;
+    }
+    .forth {
+        width: 50%;
+        height: 300px;
+        object-fit: cover;
+        float: left;
+        background-image: url("../images/index-image4.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #main-image-left-title {
+        font-size: 200%;
+        color: white;
+    }
+    #main-image-left-article {
+        color: white;
+        margin-top: 10px;
+    }
+    .fifth {
+        width: 50%;
+        height: 300px;
+        object-fit: cover;
+        float: right;
+    }
+    #main-image-right {
+        width: 100%;
+    }
+    .sixth {
+        width: 50%;
+        height: 300px;
+        float: left;
+        object-fit: cover;
+    }
+    .seventh {
+        width: 50%;
+        height: 300px;
+        object-fit: cover;
+        float: right;
+        background-image: url("../images/index-image7.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+    #main-image-right-title-sub{
+        color: white;
+        font-size: 200%;
+    }
+    #main-image-right-article-sub{
+        color: white;
+        margin-top: 10px;
+    }
+    .eighth {
+        width: 50%;
+        height: 500px;
+        object-fit: cover;
+        float: left;
+        background-image: url("../images/index-image8.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+    #main-image-right-title {
+        color: white;
+        font-size: 200%;
+    }
+    #main-image-rihght-article {
+        color: white;
+        margin-top: 10px;
+    }
+    .ninth {
+        width: 50%;
+        height: 500px;
+        object-fit: cover;
+        float: right;
+    }
+    #advertisement {
+        float: left;
+        width: 46.666%;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 10%;
+        border: 15px solid #83979a7d;
+    }
+    #advertisement-image-area {
+        width: 55%;
+    }
+    #advertisement-image-area img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: -4px;
+    }
+    #advertisement-article-area {
+        background-color: #9875023b;
+        width: 45%;
+    }
+    #advertisement-title {
+        letter-spacing: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+    #advertisement-sub-title {
+        background-color: #78d5fbb0;
+        text-align: center;
+        margin-top: 20px;
+        padding: 4px 0;
+    }
+    .advertisement-article {
+        text-align: center;
+        margin-top: 20px;
+        font-family: serif;
+        letter-spacing: 1.8px;
+    }
+    #built-example-area {
+        float: left;
+        width: 46.666%;
+        margin-left: 10%;
+        margin-top: 60px;
+    }
+    #built-example-title {
+        font-family: serif;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #built-area {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .built-example-items {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .built-example-items img {
+        width: 97%;
+        height: 80%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    .built-title {
+        color: #525252e6;
+        font-family: serif;
+    }
+    .built-date {
+        margin-top: 10px;
+    }
+    #built-list-btn {
+        text-align: center;
+        border: 2px solid black;
+        margin: 0 250px;
+        padding: 20px;
+    }
+    #built-list-btn a {
+        color: black;
+    }
+    #recommend {
+        float: right;
+        width: 23.333%;
+        margin-right: 10%;
+        margin-top: -180px;
+    }
+    #recommend-title {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    #recommend-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    #recommend-list li {
+        width: 100%;
+        position: relative;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    #recommend-list li img {
+        width: 40%;
+        height: 100px;
+        object-fit: cover;
+    }
+    .recommend-number {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .recommend-sub-title {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    #new {
+        float: right;
+        width: 23.333%;
+        margin-right: 10%;
+    }
+    #new-title {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    #new-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    #new-list li {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #new-list img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .new-sub-title {
+        color: #525252e6;
+        font-family: serif;
+        margin-bottom: 8px;
+    }
+    #blog {
+        float: right;
+        width: 100%;
+        margin: 80px 0;
+    }
+    #blog-title {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 40px;
+    }
+    #blog-list {
+        width: 80%;
+        margin: 0 10%;
+        display: flex;
+    }
+    #blog-list li {
+        margin: 0 1%;
+        text-align: center;
+    }
+    #blog-list li img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-sub-title {
+        text-align: left;
+        color: #525252e6;
+        font-family: serif;
+        margin-bottom: 20px;
+    }
+    .blog-kind {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-bottom: 10px;
+    }
+    .blog-date {
+        text-align: left;
+    }
+    .fa-clock-o:before {
+        color: black;
+        font-weight: 100;
+    }
+    #blog-list-btn {
+        text-align: center;
+        margin: 80px 0 20px;
+    }
+    #blog-list-btn a {
+        color: black;
+        border: 2px solid black;
+        padding: 15px;
+    }
+    #main-contact {
+        float: right;
+        width: 100%;
+    }
+    #main-contact-image {
+        width: 100%;
+        background-image: url("../images/contact-image.jpg");
+        text-align: center;
+        padding: 130px 0;
+        background-size: cover;
+        object-fit: cover;
+    }
+    #main-contact-image-title {
+        color: white;
+        font-size: 40px;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 20px;
+    }
+    #main-contact-image-sub-title {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    #form {
+        width: 100%;
+        margin-top: 200px;
+    }
+    .form-item {
+        margin-bottom: 20px;
+    }
+    .form-item-label {
+        margin: 0 15%;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    .form-item-input {
+        margin: 0 15%;
+        width: 69%;
+        padding: 5px;
+        border: 1px dotted #a2a2a2c2;
+    }
+    .form-item.textarea {
+        margin: 0 15%;
+        width: 69.5%;
+        border: 1px dotted #a2a2a2c2;
+        height: 200px;
+    }
+    .form-btn {
+        margin: 0 47.4%;
+        padding: 10px 25px;
+        color: white;
+        background-color: #0aa00aa1;
+        border: none;
+    }
+    #explain {
+        float: right;
+        margin: 0 10%;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    .example-area {
+        display: flex;
+        height: 200px;
+        margin-bottom: 60px;
+    }
+    .example-area img {
+        width: 25%;
+        object-fit: cover;
+    }
+    .example-title {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .example-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    .example-sub-title {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-left: 30px;
+        margin-right: 30px;
+        letter-spacing: 1.8px;
+    }
+    .example-area-sub {
+        display: flex;
+        height: 200px;
+    }
+    .example-area-sub img {
+        width: 25%;
+        object-fit: cover;
+    }
+    #footer {
+        float: right;
+        width: 100%;
+        background-color: #7d3d0bb8;
+        text-align: center;
+    }
+    #footer-list {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #d0cccc6b;
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #footer-list li {
+        margin: 0 20px 20px;
+    }
+    #footer-list li a {
+        color: white;
+    }
+    #footer-title {
+        font-size: 45px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        margin: 20px 0 20px;
+    }
+    #copyright {
+        font-size: 12px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    #question-main {
+        padding-top: 130px;
+        margin: 0 10%;
+    }
+    #question-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    #question-explain {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        letter-spacing: 1.8px;
+        margin-bottom: 40px;
+    }
+    .q-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        border-top: 3px solid #80808038;
+        border-bottom: 3px solid #80808038;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 25px 0;
+    }
+    .a {
+        margin: 30px 0;
+    }
+    .a-icon {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-bottom: 15px;
+    }
+    .a-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        letter-spacing: 1.8px;
+    }
+    #sns {
+        margin: 0px 10% 150px;
+        border-top: 3px solid #80808038;
+        padding-top: 80px;
+    }
+    .fa-twitter {
+        margin-right: 20px;
+    }
+    #request {
+        padding-top: 130px;
+        margin: 0 10%;
+    }
+    #request-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+    .request-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        border-bottom: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+        text-align: center;
+        color: skyblue;
+    }
+    .request-sub-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .arrow_u {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .arrow_u img {
+        width: 60px;
+    }
+    #request-sns {
+        margin: 0px 10% 150px;
+        padding-top: 80px;
+    }
+    #company {
+        padding-top: 130px;
+        margin: 0 10%;
+    }
+    #company-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+    #company-area p {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    #company-area ul li {
+        font-family: serif;
+        font-size: 18px;
+    }
+    .company-item {
+        display: flex;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    .company-item h4 {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-right: 90px;
+    }
+    .company-item-sub {
+        display: flex;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    .company-item-sub h4 {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-right: 70px;
+    }
+    #contact {
+        padding-top: 130px;
+    }
+    #contact-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin: 0 15% 80px;
+    }
+    #contact-sns {
+        margin: 0px 15% 150px;
+        padding-top: 80px;
+    }
+    #blog-page {
+        padding-top: 130px;
+    }
+    #blog-title-sub {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
+
+
+@media screen and (max-width:1000px){
+    #main-header {
+        position: relative;
+        height: 190px;
+    }
+    #header-head {
+        height: 130px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        text-align: center;
+    }
+    #heading {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-bottom: 15px;
+    }
+    #header-area {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        margin-bottom: 5px;
+    }
+    #header-time {
+        color: white;
+        font-family: serif;
+        margin-bottom: 15px;
+    }
+    .btn-tel {
+        color: white;
+        background-color: #00c500f2;
+        font-family: serif;
+        padding: 5px 20%;
+        border-radius: 8px;
+    }
+    #header-middle {
+        height: 60px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+    #title {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'PT Serif', serif;
+        margin-top: 10px;
+    }
+    #title a {
+        color: white;
+    }
+    #header-middle-right {
+        display: none;
+    }
+    #slide {
+        width: 100%;
+        position: relative;
+    }
+    .slide-word {
+        position: absolute;
+        width: 27.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+    }
+    .slide-word h1 {
+        color: white;
+        font-size: 25px;
+        font-family: 'PT Serif', serif;
+    }
+    .slide-word p {
+        color: white;
+    }
+    .slide-image img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .slick-next.slick-arrow {
+        position: relative;
+    }
+    .slick-dots {
+        position: relative;
+        top: -80px;
+    }
+    #main {
+        margin-top: -73px;
+    }
+    #main-image {
+        width: 100%;
+    }
+    #main-image-left {
+        width: 100%;
+    }
+    #main-image img {
+        vertical-align: bottom;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .forth {
+        height: 300px;
+        background-image: url("../images/index-image4.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+    #main-image-left-title {
+        color: white;
+        font-family: 'PT Serif', serif;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #main-image-left-article {
+        color: white;
+    }
+    .seventh {
+        height: 300px;
+        background-image: url("../images/index-image7.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+    #main-image-right-title-sub {
+        font-family: 'PT Serif', serif;
+        color: white;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #main-image-right-article-sub {
+        color: white;
+    }
+    .eighth {
+        height: 300px;
+        background-image: url("../images/index-image8.jpg");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+    }
+    #main-image-right-title {
+        font-family: 'PT Serif', serif;
+        color: white;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #main-image-rihght-article {
+        color: white;
+    }
+    #advertisement {
+        width: 93%;
+        margin: 25px 10px 60px;
+        display: flex;
+        border: 8px solid #83979a7d;
+    }
+    #advertisement-image-area {
+        width: 60%;
+    }
+    #advertisement-image-area img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        vertical-align: bottom;
+    }
+    #advertisement-article-area {
+        width: 40%;
+        height: 100px;
+        background-color: #9875023b;
+    }
+    #advertisement-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 8px;
+        margin-bottom: 12px;
+        margin-top: 8px;
+    }
+    #advertisement-sub-title {
+        font-size: 12px;
+        background-color: #78d5fbb0;
+        padding: 3px 10px;
+    }
+    .advertisement-article {
+        font-size: 12px;
+        margin: 10px;
+        letter-spacing: 1.8px;
+    }
+    #built-example-area {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #built-example-title {
+        text-align: center;
+        font-size: 22px;
+        font-family: serif;
+        margin-bottom: 30px;
+    }
+    #built-area {
+        width: 100%;
+    }
+    .built-example-items {
+        margin: 0 10px 15px;
+        text-align: center;
+    }
+    .built-example-items img {
+        width: 80%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .built-title {
+        margin-bottom: 10px;
+        color: #525252e6;
+        font-family: serif;
+    }
+    .built-date {
+        margin-bottom: 40px;
+    }
+    .fa-clock-o:before {
+        font-weight: 100;
+    }
+    #built-list-btn {
+        text-align: center;
+    }
+    #built-list-btn a {
+        color: black;
+        border: 2px solid black;
+        padding: 15px;
+    }
+    #recommend {
+        width: 100%;
+    }
+    #recommend-title {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #recommend-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    #recommend-list {
+        width: 100%;
+        margin: 0 10px;
+    }
+    #recommend-list li {
+        display: flex;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    #recommend-list li img {
+        width: 40%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .recommend-number {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .recommend-sub-title {
+        color: #525252e6;
+        font-family: serif;
+        margin-left: 10px;
+    }
+    #new {
+        width: 100%;
+        margin-top: 80px;
+    }
+    #new-title {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #new-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    #new-list {
+        width: 100%;
+    }
+    #new-list li {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #new-list li img {
+        width: 80%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .new-sub-title {
+        color: #525252e6;
+        font-family: serif;
+        margin-bottom: 10px;
+    }
+    #blog {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    #blog-title {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 30px;
+    }
+    #blog-list {
+        width: 100%;
+    }
+    #blog-list li {
+        width: 80%;
+        text-align: center;
+        margin: 0 10% 30px;
+    }
+    #blog-list li img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .blog-sub-title {
+        text-align: left;
+        color: #525252e6;
+        font-family: serif;
+    }
+    .blog-kind {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    .blog-date {
+        text-align: left;
+    }
+    #blog-list-btn {
+        text-align: center;
+        margin-top: 60px;
+    }
+    #blog-list-btn a {
+        color: black;
+        border: 2px solid black;
+        padding: 15px;
+    }
+    #main-contact {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    #main-contact-image {
+        background-image: url("../images/contact-image.jpg");
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+    }
+    #main-contact-image-title {
+        color: white;
+        font-family: 'PT Serif', serif;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #main-contact-image-sub-title {
+        color: white;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    #form {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .form-item-label {
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    .form-item-input {
+        width: 92%;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 1px dotted #00000059;
+    }
+    .form-item.textarea {
+        width: 92%;
+        height: 200px;
+        padding: 5px;
+        border: 1px dotted #00000059;
+    }
+    .form-btn {
+        width: 94%;
+        background-color: #0aa00aa1;
+        border: none;
+        padding: 8px 0;
+        color: white;
+    }
+    #explain {
+        width: 100%;
+    }
+    .example-area {
+        width: 100%;
+    }
+    .example-area img {
+        width: 90%;
+        text-align: center;
+        height: 300px;
+        object-fit: cover;
+        margin: 0 5%;
+    }
+    .example-space {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .example-title {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+        border-bottom: 1px solid #929292c2;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .example-title:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 50px;
+        height: inherit;
+        border-bottom: 3px solid red;
+    }
+    .example-sub-title {
+        margin: 0 10px;
+        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    }
+    .example-area-sub {
+        width: 100%;
+    }
+    .example-area-sub img {
+        width: 90%;
+        text-align: center;
+        height: 300px;
+        object-fit: cover;
+        margin: 0 5%;
+    }
+    #footer {
+        background-color: #7d3d0bb8;
+        margin-top: 20px;
+    }
+    #footer-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    #footer-list li {
+        margin: 5px 0;
+    }
+    #footer-list li a {
+        color: white;
+    }
+    #footer-title {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 40px;
+        font-family: 'PT Serif', serif;
+    }
+    #copyright {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #page_top{
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      background: #3f98ef;
+      opacity: 0.6;
+    }
+    #page_top a{
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      text-decoration: none;
+    }
+    #page_top a::before{
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      content: '\f102';
+      font-size: 25px;
+      color: #fff;
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      text-align: center;
+    }
+    #question-main {
+        margin: 0 10%;
+    }
+    #question-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    #question-explain {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        letter-spacing: 1.8px;
+        margin-bottom: 40px;
+    }
+    .q-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        border-top: 3px solid #80808038;
+        border-bottom: 3px solid #80808038;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 25px 0;
+    }
+    .a {
+        margin: 30px 0;
+    }
+    .a-icon {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-bottom: 15px;
+    }
+    .a-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        letter-spacing: 1.8px;
+    }
+    #sns {
+        margin: 0px 10% 150px;
+        border-top: 3px solid #80808038;
+        padding-top: 80px;
+    }
+    .fa-twitter {
+        margin-right: 20px;
+    }
+    #request {
+        margin: 0 10%;
+    }
+    #request-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+    .request-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        border-bottom: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+        text-align: center;
+        color: skyblue;
+    }
+    .request-sub-article {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .arrow_u {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .arrow_u img {
+        width: 60px;
+    }
+    #request-sns {
+        margin: 0px 10% 150px;
+        padding-top: 80px;
+    }
+    #company {
+        margin: 0 10%;
+    }
+    #company-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+    #company-area p {
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    #company-area ul li {
+        font-family: serif;
+        font-size: 18px;
+    }
+    .company-item {
+        display: flex;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    .company-item h4 {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-right: 90px;
+    }
+    .company-item-sub {
+        display: flex;
+        border-top: 3px solid rgba(128, 128, 128, 0.22);
+        padding: 25px 0px;
+    }
+    .company-item-sub h4 {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+        margin-right: 70px;
+    }
+    #contact {
+    }
+    #contact-form {
+        margin: 0 10px;
+    }
+    #contact-title {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin: 0 10px 80px;
+    }
+    #contact-sns {
+        margin: 0px 15% 150px;
+        padding-top: 80px;
+    }
+    #blog-page {
+    }
+    #blog-title-sub {
+        font-family: serif;
+        font-size: 28px;
+        margin-top: 20px;
+        border-top: 1px solid #80808057;
+        padding-top: 20px;
+        margin-bottom: 80px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+
+/*@media(min-width:850px) and (max-width:950px){*/
+/*    #main-header {*/
+/*        position: relative;*/
+/*        height: 190px;*/
+/*    }*/
+/*    #header-head {*/
+/*        height: 130px;*/
+/*        width: 100%;*/
+/*        position: absolute;*/
+/*        bottom: 0;*/
+/*        left: 0;*/
+/*        background-color: black;*/
+/*        text-align: center;*/
+/*    }*/
+/*    #heading {*/
+/*        color: white;*/
+/*        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+/*    #header-area {*/
+/*        color: white;*/
+/*        font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+/*    #header-time {*/
+/*        color: white;*/
+/*        font-family: serif;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+/*    .btn-tel {*/
+/*        color: white;*/
+/*        background-color: #00c500f2;*/
+/*        font-family: serif;*/
+/*        padding: 5px 20%;*/
+/*        border-radius: 8px;*/
+/*    }*/
+/*    #header-middle {*/
+/*        height: 60px;*/
+/*        width: 100%;*/
+/*        position: absolute;*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        background-color: black;*/
+/*    }*/
+/*    #title {*/
+/*        text-align: center;*/
+/*        font-size: 35px;*/
+/*        font-family: 'PT Serif', serif;*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*    #title a {*/
+/*        color: white;*/
+/*    }*/
+/*    #header-middle-right {*/
+/*        display: none;*/
+/*    }*/
+/*    #slide {*/
+/*        width: 100%;*/
+/*        position: relative;*/
+/*    }*/
+/*    .slide-word {*/
+/*        position: absolute;*/
+/*        width: 27.5%;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*        height: 300px;*/
+/*    }*/
+/*    .slide-word h1 {*/
+/*        color: white;*/
+/*        font-size: 25px;*/
+/*        font-family: 'PT Serif', serif;*/
+/*    }*/
+/*    .slide-word p {*/
+/*        color: white;*/
+/*    }*/
+/*    .slide-image img {*/
+/*        width: 100%;*/
+/*        height: 300px;*/
+/*        object-fit: cover;*/
+/*    }*/
+/*    .slick-next.slick-arrow {*/
+/*        position: relative;*/
+/*    }*/
+/*    .slick-dots {*/
+/*        position: relative;*/
+/*        top: -80px;*/
+/*    }*/
+/*}*/
